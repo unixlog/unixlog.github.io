@@ -27,7 +27,8 @@ module.exports = {
                     title: 'Установка',
                     collapsable: false,
                     children: [
-                        '/install/'
+                        '/install/',
+                        '/install/auto',
                     ]
                 },
                 {
@@ -35,6 +36,13 @@ module.exports = {
                     collapsable: false,
                     children: [
                         '/upgrade/'
+                    ]
+                },
+                {
+                    title: 'Заметки',
+                    collapsable: false,
+                    children: [
+                        '/tips/'
                     ]
                 }
             ]
