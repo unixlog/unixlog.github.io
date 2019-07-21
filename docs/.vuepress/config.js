@@ -28,14 +28,15 @@ module.exports = {
                     collapsable: false,
                     children: [
                         '/install/',
-                        '/install/auto',
+                        '/install/auto'
                     ]
                 },
                 {
                     title: 'Обновление',
                     collapsable: false,
                     children: [
-                        '/upgrade/'
+                        '/upgrade/',
+                        '/upgrade/fedora'
                     ]
                 },
                 {
