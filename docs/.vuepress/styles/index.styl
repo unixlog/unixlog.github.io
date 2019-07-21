@@ -3,12 +3,14 @@ html {
         font-family: 'Roboto', sans-serif;
     }
 
-    .sidebar-heading {
-        font-family: 'Roboto Condensed', sans-serif;
-        text-transform: uppercase;
+    .sidebar {
+        &-heading {
+            font-family: 'Roboto Condensed', sans-serif;
+            text-transform: uppercase;
+        }
     }
 
-    .content {
+    .page {
         text-align: justify;
 
         h1,
@@ -21,8 +23,9 @@ html {
             text-transform: uppercase;
         }
 
+        pre,
         code,
-        pre {
+        kbd {
             font-family: 'Fira Mono', monospace;
         }
     }
