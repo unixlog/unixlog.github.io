@@ -43,7 +43,9 @@ module.exports = {
                     title: 'Заметки',
                     collapsable: false,
                     children: [
-                        '/tips/'
+                        '/tips/',
+                        '/tips/disc',
+                        '/tips/terminal'
                     ]
                 }
             ]
