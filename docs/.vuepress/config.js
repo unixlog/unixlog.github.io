@@ -27,14 +27,14 @@ module.exports = {
                     title: 'Установка',
                     collapsable: false,
                     children: [
-                        '/install'
+                        '/install/'
                     ]
                 },
                 {
                     title: 'Обновление',
                     collapsable: false,
                     children: [
-                        '/upgrade'
+                        '/upgrade/'
                     ]
                 }
             ]
