@@ -1,6 +1,6 @@
 module.exports = {
     title: 'UNIX Log',
-    description: 'Установка и настройка *NIX-системы',
+    description: 'Заметки системного администратора',
     base: '/',
     dest: 'public',
     head: [
