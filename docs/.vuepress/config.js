@@ -8,6 +8,9 @@ module.exports = {
         ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&subset=cyrillic' }],
         ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Fira+Mono:400,700&subset=cyrillic' }]
     ],
+    markdown: {
+        lineNumbers: true
+    },
     themeConfig: {
         editLinks: false,
         nav: [],
@@ -15,7 +18,24 @@ module.exports = {
             '/': [
                 {
                     title: 'Введение',
-                    collapsable: false
+                    collapsable: false,
+                    children: [
+                        '/about'
+                    ]
+                },
+                {
+                    title: 'Установка',
+                    collapsable: false,
+                    children: [
+                        '/install'
+                    ]
+                },
+                {
+                    title: 'Обновление',
+                    collapsable: false,
+                    children: [
+                        '/upgrade'
+                    ]
                 }
             ]
         }
