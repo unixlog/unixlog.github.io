@@ -9,7 +9,6 @@ module.exports = {
         ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Fira+Mono:400,700&subset=cyrillic' }]
     ],
     themeConfig: {
-        lastUpdated: 'Last Updated',
         editLinks: false,
         nav: [],
         sidebar: {
