@@ -5,7 +5,7 @@
 ## Обновление пакетов
 
 ``` bash
-root@linux# dnf upgrade --refresh
+dnf upgrade --refresh
 ```
 
 ## Установка DNF-дополнения
@@ -13,13 +13,13 @@ root@linux# dnf upgrade --refresh
 Обновление между версиями Fedora происходит при помощи DNF-дополнения `dnf-plugin-system-upgrade`:
 
 ``` bash
-root@linux# dnf install dnf-plugin-system-upgrade
+dnf install dnf-plugin-system-upgrade
 ```
 
 ## Запуска процесса обновления
 
 ``` bash
-root@linux# dnf system-upgrade download --releasever=DIST_VER
+dnf system-upgrade download --releasever=DIST_VER
 ```
 
 - `DIST_VER` - версия дистрибутива.
@@ -27,5 +27,5 @@ root@linux# dnf system-upgrade download --releasever=DIST_VER
 ## Перезагрузка
 
 ``` bash
-root@linux# dnf system-upgrade reboot
+dnf system-upgrade reboot
 ```

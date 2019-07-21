@@ -7,7 +7,7 @@
 Чтобы создать на новом диске раздел, необходимо войти в программу `parted`:
 
 ``` bash
-root@linux# parted -a optimal /dev/sdb
+parted -a optimal /dev/sdb
 ```
 
 Выполнить следующие команды:
@@ -21,7 +21,7 @@ root@linux# parted -a optimal /dev/sdb
 Создать файловую систему:
 
 ``` bash
-root@linux# mkfs.xfs /dev/sdb1
+mkfs.xfs /dev/sdb1
 ```
 
 Настроить автоматическое монтирование раздела в `/etc/fstab`:
