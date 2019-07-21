@@ -6,21 +6,21 @@
 
 Для персонального компьютера:
 
-```bash
+``` bash
 https://unixlog.gitlab.io/data/ks/fedora.ws.cfg
 # inst.ks=https://unixlog.gitlab.io/data/ks/fedora.ws.cfg
 ```
 
 Для сервера:
 
-```bash
+``` bash
 https://unixlog.gitlab.io/data/ks/fedora.srv.cfg
 # inst.ks=https://unixlog.gitlab.io/data/ks/fedora.srv.cfg
 ```
 
 Для сервера с SSD:
 
-```bash
+``` bash
 https://unixlog.gitlab.io/data/ks/fedora.srv.ssd.cfg
 # inst.ks=https://unixlog.gitlab.io/data/ks/fedora.srv.ssd.cfg
 ```
@@ -29,14 +29,14 @@ https://unixlog.gitlab.io/data/ks/fedora.srv.ssd.cfg
 
 Для сервера:
 
-```bash
+``` bash
 https://unixlog.gitlab.io/data/ks/centos.srv.cfg
 # inst.ks=https://unixlog.gitlab.io/data/ks/centos.srv.cfg
 ```
 
 Для сервера с SSD:
 
-```bash
+``` bash
 https://unixlog.gitlab.io/data/ks/centos.srv.ssd.cfg
 # inst.ks=https://unixlog.gitlab.io/data/ks/centos.srv.ssd.cfg
 ```
@@ -45,14 +45,14 @@ https://unixlog.gitlab.io/data/ks/centos.srv.ssd.cfg
 
 Для сервера:
 
-```bash
+``` bash
 https://unixlog.gitlab.io/data/ks/oel.srv.cfg
 # inst.ks=https://unixlog.gitlab.io/data/ks/oel.srv.cfg
 ```
 
 Для сервера с SSD:
 
-```bash
+``` bash
 https://unixlog.gitlab.io/data/ks/oel.srv.ssd.cfg
 # inst.ks=https://unixlog.gitlab.io/data/ks/oel.srv.ssd.cfg
 ```
